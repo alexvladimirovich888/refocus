@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+  background: white;
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  border-bottom: 3px dashed black;
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+.main-image {
+  max-width: 250px;
+  margin: 30px auto;
+  display: block;
+}
+
+.text-block {
+  font-size: 1.3em;
+  line-height: 1.6;
+  margin: 30px 0;
+}
+
+.text-block p {
+  margin: 20px 0;
+}
+
+.twitter-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 3px solid black;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+
+.twitter-btn:hover {
+  background: black;
+  color: white;
+}
